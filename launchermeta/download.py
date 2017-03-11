@@ -19,12 +19,11 @@ class Download:
         """
         return self.raw['url']
 
-    def download_to(self, to, check_sha1 = True):
+    def download_to(self, to):
         """
         Downloads the file to a location
 
         :param to: location to download to
-        :param check_sha1: should check if sha1 matches
         :returns: tuple of the location and headers
         :rtype: tuple
         """
