@@ -18,8 +18,5 @@ client = latest_release.get_client_download()
 client.download_to('/tmp') # download the client
 ```
 
-## Installation
-`pip install launchermeta`
-
 #### Note
 There are other functions in the code itself, feel free to look there for a specific function that you need.
